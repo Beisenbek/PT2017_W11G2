@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsGraphics3", "Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTimerGraphics", "WindowsFormsTimerGraphics\WindowsFormsTimerGraphics.csproj", "{13CED58C-A45C-474B-AFCC-C8710624508F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsGraphicsOOP", "WindowsFormsGraphicsOOP\WindowsFormsGraphicsOOP.csproj", "{2F2FF77A-CA83-4E73-9DCE-30EF53FBA7D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsGraphicsOOP2", "WindowsFormsGraphicsOOP2\WindowsFormsGraphicsOOP2.csproj", "{E6CABDB4-ECC0-4AB6-ACDB-E5AA0FA8FE9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsGraphicsRotations", "WindowsFormsGraphicsRotations\WindowsFormsGraphicsRotations.csproj", "{4CA4DCDC-153F-4652-8AB5-E49A91D02905}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,18 @@ Global
 		{13CED58C-A45C-474B-AFCC-C8710624508F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13CED58C-A45C-474B-AFCC-C8710624508F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13CED58C-A45C-474B-AFCC-C8710624508F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2FF77A-CA83-4E73-9DCE-30EF53FBA7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2FF77A-CA83-4E73-9DCE-30EF53FBA7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2FF77A-CA83-4E73-9DCE-30EF53FBA7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2FF77A-CA83-4E73-9DCE-30EF53FBA7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6CABDB4-ECC0-4AB6-ACDB-E5AA0FA8FE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CABDB4-ECC0-4AB6-ACDB-E5AA0FA8FE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CABDB4-ECC0-4AB6-ACDB-E5AA0FA8FE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CABDB4-ECC0-4AB6-ACDB-E5AA0FA8FE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA4DCDC-153F-4652-8AB5-E49A91D02905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA4DCDC-153F-4652-8AB5-E49A91D02905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA4DCDC-153F-4652-8AB5-E49A91D02905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA4DCDC-153F-4652-8AB5-E49A91D02905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
