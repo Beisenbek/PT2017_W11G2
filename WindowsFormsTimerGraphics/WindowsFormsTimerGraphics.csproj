@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{568E2129-7588-4050-B133-E3436157A4F6}</ProjectGuid>
+    <ProjectGuid>{13CED58C-A45C-474B-AFCC-C8710624508F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsGraphics</RootNamespace>
-    <AssemblyName>WindowsFormsGraphics</AssemblyName>
+    <RootNamespace>WindowsFormsTimerGraphics</RootNamespace>
+    <AssemblyName>WindowsFormsTimerGraphics</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

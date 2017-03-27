@@ -8,28 +8,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsGraphics
+namespace WindowsFormsTimerGraphics
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-
         }
 
+        float x = 30, y = 30;
+        float w = 0, h = 0;
 
-        int k = 0;
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            k++;
-            label1.Text = k.ToString();
-            Pen pen = new Pen(Color.Red);
-            SolidBrush b = new SolidBrush(Color.Green);
-            e.Graphics.DrawLine(pen, 0, 0, 100, 100);
-            e.Graphics.DrawRectangle(pen, 0, 0, 200, 100);
-            e.Graphics.FillEllipse(b, 10, 10, 30, 50);
-            e.Graphics.FillEllipse(pen.Brush, 100, 10, 30, 50);
+            e.Graphics.DrawEllipse(new Pen(Color.Blue), x, y, w, h);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            w += (float)2.5;
+            h += (float)2.5;
+            Refresh();
         }
     }
 }

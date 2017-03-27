@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{568E2129-7588-4050-B133-E3436157A4F6}</ProjectGuid>
+    <ProjectGuid>{A8B9A870-F018-469B-BB70-4F3FBA794093}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsGraphics</RootNamespace>
-    <AssemblyName>WindowsFormsGraphics</AssemblyName>
+    <RootNamespace>WindowsFormsGraphics3</RootNamespace>
+    <AssemblyName>WindowsFormsGraphics3</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

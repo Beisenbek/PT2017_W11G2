@@ -3,33 +3,33 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsGraphics
+namespace WindowsFormsGraphics3
 {
     public partial class Form1 : Form
     {
+
+        GraphicsPath gp = new GraphicsPath();
         public Form1()
         {
             InitializeComponent();
-
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            gp.AddLine(10, 10, 100, 100);
+            gp.AddEllipse(20, 20, 30, 40);
+            Refresh();
+        }
 
-        int k = 0;
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            k++;
-            label1.Text = k.ToString();
-            Pen pen = new Pen(Color.Red);
-            SolidBrush b = new SolidBrush(Color.Green);
-            e.Graphics.DrawLine(pen, 0, 0, 100, 100);
-            e.Graphics.DrawRectangle(pen, 0, 0, 200, 100);
-            e.Graphics.FillEllipse(b, 10, 10, 30, 50);
-            e.Graphics.FillEllipse(pen.Brush, 100, 10, 30, 50);
+            e.Graphics.DrawPath(new Pen(Color.Red), gp);
         }
     }
 }
